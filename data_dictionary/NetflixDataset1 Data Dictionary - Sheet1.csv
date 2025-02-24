@@ -1,0 +1,13 @@
+Field Name,Data type,Attribute Type,Description,Missing Values,Examples
+show_id,Object,ordinal,A unique id given to every show/movie in the dataset,no,s2
+type,Object,nominal,Represents whether the recording is a movie or show on Netflix,no,TV show
+title,Object,nominal,The title of the movie or show listed on Netflix,no,Blood & Water
+director,Object,nominal,Director(s) of movie or show,yes,Haile Gerima
+cast,Object,nominal, Actors involved in movie or show,yes,"Ama Qamata, Khosi Ngema, Gail Mabalane, Thaban..."
+country,Object,nominal,The country the movie or show was made in,yes,South Africa
+date_added,Object,"ordinal, discrete",Date movie or show was added to Netflix,yes,"September 24, 2021"
+release_year,int64,"interval, discrete",Year the show/movie was officially released to public,no,2021
+rating,Object,nominal,Appropriate Age Registriction/Recommendation of show/movie,yes,TV-MA
+duration,Object,"interval, discrete",Length in time of movie/show. Movies represented in minutes and shows represented with season count.,yes,90 min
+listed_in,Object,nominal,Categories on netflix the show/movie is listed in,no,"International TV Shows, TV Dramas, TV Mysteries"
+description,Object,nominal,Paragraph description of show/movie,no,"As her father nears the end of his life, filmm..."

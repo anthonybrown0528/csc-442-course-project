@@ -1,0 +1,12 @@
+Field Name,Data Type,Attribute Type,Description,Missing Values,Example
+index,int,ordinal,Index in the Netflix IMDb scores dataset.,No,4811
+id,String,ordinal,Id associated with the media.,No,ts304058
+title,String,nominal,Title of the media.,No,Ganglands
+type,String,nominal,"Either ""SHOW"" or ""MOVIE"" defining the media as a show or movie respectively.",No,SHOW
+description,String,nominal,Brief description of the what the media is about.,Yes,"Mehdi, a qualified robber, and Liana, an apprentice thief, get involved in a turf war between drug dealers, and have to collaborate in order to save their loved ones."
+release_year,int,"interval, discrete",Year the movie was initially released.,No,2021
+age_certification,String,ordinal,Content rating.,Yes,TV-MA
+runtime,int,"interval, discrete",Runtime for the movie or for a singluar episode if the media is a show.,No,46
+imdb_id,String,ordinal,IMDb score ID.,No,tt13278100
+imdb_score,float,"interval, continuous",IMDb score of the media.,No,7
+imdb_votes,int,"ratio, discrete",Number of IMDb votes for the media.,Yes,2460

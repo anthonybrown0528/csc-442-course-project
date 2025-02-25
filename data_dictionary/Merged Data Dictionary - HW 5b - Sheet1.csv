@@ -1,0 +1,22 @@
+Field Name,Data Type,Attribute Type,Description,Missing Values,Example
+title,String,nominal,Title of the media.,No,Ganglands
+description_x,String,nominal,Brief description of the what the media is about. (Netflix Movies and Shows dataset),No,"To protect his family from a powerful drug lord, skilled thief Mehdi and his expert team of robbers are pulled into a violent and deadly turf war."
+release_year,int,"interval, discrete",Year the movie was initially released.,No,2021
+runtime,int,"interval, discrete",Runtime for the movie or for a singluar episode if the media is a show.,No,46
+imdb_id,String,ordinal,IMDb score ID.,No,tt13278100
+imdb_score,float,"interval, continuous",IMDb score of the media.,No,7
+imdb_votes,int,"ratio, discrete",Number of IMDb votes for the media.,No,2460
+show_id,String,ordinal,"Unique ID for the show / movie. Begins with ""s"" and has a number after. Primary key for this dataset.",No,s3
+type,String,nominal,"Either ""SHOW"" or ""MOVIE"" defining the media as a show or movie respectively.",No,SHOW
+director,String,nominal,Director name.,Yes,Julien Leclercq
+cast,String,nominal,List of actor names that were casted in the movie.,No,"Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabiha Akkari, Sofia Lesaffre, Salim Kechiouche, Noureddine Farihi, Geert Van Rampelberg, Bakary Diombera"
+country,String,nominal,Country of production.,No,United States
+date_added,String,interval,Date that the media was added to the Netflix platform.,No,2021-09-07
+age_certification,String,ordinal,Content rating.,No,TV-MA
+num_releases,int,"ratio, discrete","Number of releases (shows go by number of season releases, movies are 1)",No,2
+listed_in,String,nominal,Genres that the media is listed in.,No,"Crime TV Shows, International TV Shows, TV Action & Adventure"
+description_y,String,nominal,Brief description of the what the media is about. (Netflix IMDb Scores dataset),No,"Mehdi, a qualified robber, and Liana, an apprentice thief, get involved in a turf war between drug dealers, and have to collaborate in order to save their loved ones."
+num_listed_in,int,"ratio, discrete",Number of genres the entry is in,No,3
+first_cast,String,nominal,The first listed cast member (most popular),No,Graham Chapman
+cast_freq_mean,float,"interval, continuous",Average frequency of actors in other films to measure their popularity,No,10.888889
+genre_freq_mean,float,"interval, continuous",Average frequency of genres that this movie is associated with,No,831

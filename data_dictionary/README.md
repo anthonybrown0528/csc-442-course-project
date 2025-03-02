@@ -60,3 +60,8 @@
 | first_cast          | String                 | Nominal                   | The first listed cast member (most popular).                               | No                | Graham Chapman |
 | cast_freq_mean      | Float                  | Interval, Continuous      | Average frequency of actors in other films (popularity measure).           | No                | 10.888889   |
 | genre_freq_mean     | Float                  | Interval, Continuous      | Average frequency of genres that this movie is associated with.            | No                | 831         |
+| desc_character_count     | Int                 | Nominal      | Number of characters in the description            | No                | 500         |
+| desc_word_count      | Int                  |Nominal    |Number of words in description            | No                | 250       |
+| twoWord      |Boolean                |Nominal    |If description contains two or more of the top 50 most common words in descriptions          | No                | True    |
+| threeWord      |Boolean                |Nominal    |If description contains three or more of the top 50 most common words in descriptions          | No                | True    |
+| fourWord      |Boolean                |Nominal    |If description contains four or more of the top 50 most common words in descriptions          | No                | True    |

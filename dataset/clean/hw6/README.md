@@ -1,4 +1,6 @@
-## Merged Dataset Dictionary
+## Cleaned Merged Dataset Dictionary
+
+The merged dataset had still contained text encoding errors and other artifacts that motivated further cleaning of the film descriptions. This dataset is largely equivalent to the previous merged dataset except the `description_x` column is further cleaned and lemmatized.
 
 | **Field Name**        | **Data Type**            | **Attribute Type**         | **Description**                                                                 | **Missing Values** | **Example** |
 |----------------------|------------------------|---------------------------|-----------------------------------------------------------------------------|-------------------|-------------|
